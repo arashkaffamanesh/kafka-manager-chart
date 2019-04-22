@@ -47,7 +47,7 @@ kafkaManager:
   # you want to use another one, just set useKafkaZookeeper to false and
   # change the zhHosts variable to point to the zk instances.
   useKafkaZookeeper: true
-  zkHosts: ""
+  zkHosts: "zoo-entrance:2181"
 
 resources: {}
   # If you do want to specify resources for kafka-manager, uncomment the following
